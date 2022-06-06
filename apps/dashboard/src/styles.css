@@ -1,0 +1,24 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+/*
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+*/
+
+.footer {
+  @apply gap-y-10 gap-x-4 text-sm;
+  & > * {
+    @apply gap-2;
+  }
+  &-title {
+    @apply mb-2 font-bold uppercase opacity-50;
+  }
+}

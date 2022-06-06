@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "dashboard": "apps/dashboard",
+    "dashboard-dashboard-feature-test": "libs/dashboard/dashboard-feature-test",
+    "dashboard-e2e": "apps/dashboard-e2e",
+    "dashboard-ui": "libs/dashboard/ui",
+    "dashboard-ui-e2e": "apps/dashboard-ui-e2e",
+    "dashboard-utils": "libs/dashboard/utils",
+    "desktop": "apps/desktop"
+  }
+}
